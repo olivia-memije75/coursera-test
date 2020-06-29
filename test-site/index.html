@@ -2,13 +2,21 @@
 <html>
 <head>
 	<title>My Practice Website</title>
+	<style>
+		div {
+			width: 100px;
+			height: 100px;
+			background-color: green;
+			transition-property: width;
+			transition-duration: 1.5s;
+			transition-delay: 0.5s;
+		}
+		div:hover {
+			width: 300px;
+		}
+	</style>
 </head>
-<style>
-a:hover, a:active {
-	background-color: green;
-	color: red;
-	border: 2px solid blue
-}
-</style>
-<a>i practice</a>
+<body>
+	<div></div>
+</body>
 </html>
